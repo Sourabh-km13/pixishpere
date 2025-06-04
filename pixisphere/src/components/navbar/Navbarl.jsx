@@ -26,7 +26,7 @@ const Navbar = () => {
     });
   }
 
-  if (segments.includes("profile")) {
+  if (segments.includes("Profile")) {
     links.push({
       name: "Profile",
       href: pathname,

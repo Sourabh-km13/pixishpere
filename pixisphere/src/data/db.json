@@ -1,184 +1,399 @@
 {
-    "photographers": [
-      {
-        "id": 1,
-        "name": "Ravi Studio",
-        "location": "Bengaluru",
-        "price": 10000,
-        "rating": 4.6,
-        "styles": ["Outdoor", "Studio"],
-        "tags": ["Candid", "Maternity"],
-        "bio": "Award-winning studio specializing in maternity and newborn shoots.",
-        "profilePic": "https://content.jdmagicbox.com/comp/karwar/dc/9999p8382.8382.130924152852.d8p9dc/catalogue/ravi-studio-sirsi-karwar-sirsi-photographers-dvrpyrc7sr.jpg?w=1920&q=75",
-        "portfolio": ["/images/portfolio1.jpg", "/images/portfolio2.jpg"],
-        "reviews": [
-          {
-            "name": "Ananya",
-            "rating": 5,
-            "comment": "Truly amazing photos and experience!",
-            "date": "2024-12-15"
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "name": "Lens Queen Photography",
-        "location": "Delhi",
-        "price": 15000,
-        "rating": 4.2,
-        "styles": ["Candid", "Indoor"],
-        "tags": ["Newborn", "Birthday"],
-        "bio": "Delhi-based candid specialist for kids and birthday parties.",
-        "profilePic": "https://content3.jdmagicbox.com/v2/comp/delhi/t3/011pxx11.xx11.170713193406.f8t3/catalogue/lens-queen-photography-sangam-vihar-delhi-photographers-1901p0t.jpg",
-        "portfolio": ["/images/lens1.jpg", "/images/lens2.jpg"],
-        "reviews": [
-          {
-            "name": "Priya",
-            "rating": 4,
-            "comment": "Very professional and punctual!",
-            "date": "2024-10-01"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "name": "Click Factory",
-        "location": "Mumbai",
-        "price": 8000,
-        "rating": 4.8,
-        "styles": ["Studio", "Outdoor", "Traditional"],
-        "tags": ["Wedding", "Pre-wedding"],
-        "bio": "Capturing timeless wedding stories across India.",
-        "profilePic": "https://content.jdmagicbox.com/comp/vidisha/f9/9999p7592.7592.220621122739.h1f9/catalogue/kapoor-click-s-photography-vidisha-bus-stand-vidisha-photo-studios-0dwhlcmurs.jpg?w=3840&q=75",
-        "portfolio": ["/images/wed1.jpg", "/images/wed2.jpg"],
-        "reviews": [
-          {
-            "name": "Rahul",
-            "rating": 5,
-            "comment": "We loved every single moment they captured.",
-            "date": "2025-01-22"
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "name": "Moments by Neha",
-        "location": "Bengaluru",
-        "price": 12000,
-        "rating": 3.3,
-        "styles": ["Outdoor", "Candid"],
-        "tags": ["Maternity", "Couple"],
-        "bio": "Natural light specialist focusing on emotional storytelling.",
-        "profilePic": "https://images.pexels.com/photos/4123588/pexels-photo-4123588.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "portfolio": ["/images/neha1.jpg", "/images/neha2.jpg"],
-        "reviews": [
-          {
-            "name": "Sneha",
-            "rating": 4.5,
-            "comment": "Captured our maternity journey so beautifully.",
-            "date": "2024-11-05"
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "name": "Snapshot Studio",
-        "location": "Hyderabad",
-        "price": 7000,
-        "rating": 3.9,
-        "styles": ["Studio"],
-        "tags": ["Birthday", "Family"],
-        "bio": "Affordable indoor shoots with creative themes.",
-        "profilePic": "https://content.jdmagicbox.com/v2/comp/navi_mumbai/j6/022pxx22.xx22.170901161308.c7j6/catalogue/snapshot-studio-navi-mumbai-ackuonkqi3.jpg",
-        "portfolio": ["/images/snapshot1.jpg", "/images/snapshot2.jpg"],
-        "reviews": [
-          {
-            "name": "Vikram",
-            "rating": 3.5,
-            "comment": "Decent service, could improve on punctuality.",
-            "date": "2024-09-10"
-          }
-        ]
-      },
-      {
-    "id": 6,
-    "name": "Lens Craft",
-    "location": "Mumbai",
-    "price": 15000,
-    "rating": 4.8,
-    "styles": ["Wedding", "Outdoor"],
-    "tags": ["Candid", "Traditional"],
-    "bio": "Premium wedding photography with cinematic storytelling.",
-    "profilePic": "https://example.com/lenscraft.jpg",
-    "portfolio": ["/images/portfolio3.jpg", "/images/portfolio4.jpg"],
-    "reviews": [
-      {
-        "name": "Rohit",
-        "rating": 5,
-        "comment": "Incredible attention to detail!",
-        "date": "2025-01-10"
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "name": "PixelFrame",
-    "location": "Delhi",
-    "price": 8000,
-    "rating": 4.4,
-    "styles": ["Studio", "Fashion"],
-    "tags": ["Portrait", "Editorial"],
-    "bio": "Specialists in fashion portfolios and editorial shoots.",
-    "profilePic": "https://example.com/pixelframe.jpg",
-    "portfolio": ["/images/portfolio5.jpg", "/images/portfolio6.jpg"],
-    "reviews": [
-      {
-        "name": "Sana",
-        "rating": 4,
-        "comment": "Loved the final edits!",
-        "date": "2025-02-22"
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "name": "Clickscape",
-    "location": "Hyderabad",
-    "price": 12000,
-    "rating": 4.7,
-    "styles": ["Outdoor", "Event"],
-    "tags": ["Birthday", "Engagement"],
-    "bio": "Vibrant event coverage with a personal touch.",
-    "profilePic": "https://example.com/clickscape.jpg",
-    "portfolio": ["/images/portfolio7.jpg", "/images/portfolio8.jpg"],
-    "reviews": [
-      {
-        "name": "Divya",
-        "rating": 5,
-        "comment": "Captured the essence of the event perfectly.",
-        "date": "2025-03-05"
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "name": "ShutterSoul",
-    "location": "Chennai",
-    "price": 9000,
-    "rating": 4.5,
-    "styles": ["Wedding", "Studio"],
-    "tags": ["Traditional", "Couple"],
-    "bio": "Crafting timeless wedding memories with finesse.",
-    "profilePic": "https://example.com/shuttersoul.jpg",
-    "portfolio": ["/images/portfolio9.jpg", "/images/portfolio10.jpg"],
-    "reviews": [
-      {
-        "name": "Arjun",
-        "rating": 4.5,
-        "comment": "Professional and punctual!",
-        "date": "2025-04-18"
-      }
-    ]
-  }
-    ]
-  }
+  "photographers": [
+    {
+      "id": 1,
+      "name": "Ravi Studio",
+      "location": "Bengaluru",
+      "price": 10000,
+      "rating": 4.6,
+      "styles": ["Outdoor", "Studio"],
+      "tags": ["Candid", "Maternity"],
+      "bio": "Award-winning studio specializing in maternity and newborn shoots.",
+      "profilePic": "https://content.jdmagicbox.com/comp/karwar/dc/9999p8382.8382.130924152852.d8p9dc/catalogue/ravi-studio-sirsi-karwar-sirsi-photographers-dvrpyrc7sr.jpg?w=1920&q=75",
+      "portfolio": ["https://i.pinimg.com/736x/ab/2d/8c/ab2d8cc31a929c625f52d18ea3dac73d.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPhnbe8tjc83jI5sKeyYL6KUkxTK-8Zc0TQQ&s",
+        "https://cdn.pixabay.com/photo/2019/05/24/18/41/marriage-4226896_640.jpg",
+        "https://cdn.pixabay.com/photo/2024/03/03/10/43/wedding-8610170_1280.jpg",
+        "https://vivekkrishnan.com/wp-content/uploads/2016/05/Preweddingshoot-23.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjN6PdbzhSRBSSOzhHTqyue-ESr45pJj3NCQ&s",
+        "https://www.focusonthefamily.com/wp-content/uploads/2024/01/get-married-shutterstock-589431530-65b82ea6e69f6.webp",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiEFyzQmdz4t8d2gwtXWHtc2b61vm9imG6Vw&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_LAzRRaXi_whaym3P0ZH1MS5Y-BQmWpdBMQ&s"],
+      "reviews": [
+        {
+          "name": "Ananya",
+          "rating": 5,
+          "comment": "Truly amazing photos and experience!",
+          "date": "2024-12-15"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Lens Queen Photography",
+      "location": "Delhi",
+      "price": 15000,
+      "rating": 4.2,
+      "styles": ["Candid", "Indoor"],
+      "tags": ["Newborn", "Birthday"],
+      "bio": "Delhi-based candid specialist for kids and birthday parties.",
+      "profilePic": "https://content3.jdmagicbox.com/v2/comp/delhi/t3/011pxx11.xx11.170713193406.f8t3/catalogue/lens-queen-photography-sangam-vihar-delhi-photographers-1901p0t.jpg",
+      "portfolio": ["https://i.pinimg.com/736x/ab/2d/8c/ab2d8cc31a929c625f52d18ea3dac73d.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPhnbe8tjc83jI5sKeyYL6KUkxTK-8Zc0TQQ&s",
+        "https://cdn.pixabay.com/photo/2019/05/24/18/41/marriage-4226896_640.jpg",
+        "https://cdn.pixabay.com/photo/2024/03/03/10/43/wedding-8610170_1280.jpg",
+        "https://vivekkrishnan.com/wp-content/uploads/2016/05/Preweddingshoot-23.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjN6PdbzhSRBSSOzhHTqyue-ESr45pJj3NCQ&s",
+        "https://www.focusonthefamily.com/wp-content/uploads/2024/01/get-married-shutterstock-589431530-65b82ea6e69f6.webp",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiEFyzQmdz4t8d2gwtXWHtc2b61vm9imG6Vw&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_LAzRRaXi_whaym3P0ZH1MS5Y-BQmWpdBMQ&s"],
+      "reviews": [
+        {
+          "name": "Priya",
+          "rating": 4,
+          "comment": "Very professional and punctual!",
+          "date": "2024-10-01"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Click Factory",
+      "location": "Mumbai",
+      "price": 8000,
+      "rating": 4.8,
+      "styles": ["Studio", "Outdoor", "Traditional"],
+      "tags": ["Wedding", "Pre-wedding"],
+      "bio": "Capturing timeless wedding stories across India.",
+      "profilePic": "https://content.jdmagicbox.com/comp/vidisha/f9/9999p7592.7592.220621122739.h1f9/catalogue/kapoor-click-s-photography-vidisha-bus-stand-vidisha-photo-studios-0dwhlcmurs.jpg?w=3840&q=75",
+      "portfolio": ["https://i.pinimg.com/736x/ab/2d/8c/ab2d8cc31a929c625f52d18ea3dac73d.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPhnbe8tjc83jI5sKeyYL6KUkxTK-8Zc0TQQ&s",
+        "https://cdn.pixabay.com/photo/2019/05/24/18/41/marriage-4226896_640.jpg",
+        "https://cdn.pixabay.com/photo/2024/03/03/10/43/wedding-8610170_1280.jpg",
+        "https://vivekkrishnan.com/wp-content/uploads/2016/05/Preweddingshoot-23.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjN6PdbzhSRBSSOzhHTqyue-ESr45pJj3NCQ&s",
+        "https://www.focusonthefamily.com/wp-content/uploads/2024/01/get-married-shutterstock-589431530-65b82ea6e69f6.webp",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiEFyzQmdz4t8d2gwtXWHtc2b61vm9imG6Vw&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_LAzRRaXi_whaym3P0ZH1MS5Y-BQmWpdBMQ&s"],
+      "reviews": [
+        {
+          "name": "Rahul",
+          "rating": 5,
+          "comment": "We loved every single moment they captured.",
+          "date": "2025-01-22"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Moments by Neha",
+      "location": "Bengaluru",
+      "price": 12000,
+      "rating": 3.3,
+      "styles": ["Outdoor", "Candid"],
+      "tags": ["Maternity", "Couple"],
+      "bio": "Natural light specialist focusing on emotional storytelling.",
+      "profilePic": "https://images.pexels.com/photos/4123588/pexels-photo-4123588.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "portfolio": [
+        "https://i.pinimg.com/736x/ab/2d/8c/ab2d8cc31a929c625f52d18ea3dac73d.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPhnbe8tjc83jI5sKeyYL6KUkxTK-8Zc0TQQ&s",
+        "https://cdn.pixabay.com/photo/2019/05/24/18/41/marriage-4226896_640.jpg",
+        "https://cdn.pixabay.com/photo/2024/03/03/10/43/wedding-8610170_1280.jpg",
+        "https://vivekkrishnan.com/wp-content/uploads/2016/05/Preweddingshoot-23.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjN6PdbzhSRBSSOzhHTqyue-ESr45pJj3NCQ&s",
+        "https://www.focusonthefamily.com/wp-content/uploads/2024/01/get-married-shutterstock-589431530-65b82ea6e69f6.webp",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiEFyzQmdz4t8d2gwtXWHtc2b61vm9imG6Vw&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_LAzRRaXi_whaym3P0ZH1MS5Y-BQmWpdBMQ&s"
+      ],
+      "reviews": [
+        {
+          "name": "Sneha",
+          "rating": 4.5,
+          "comment": "Captured our maternity journey so beautifully.",
+          "date": "2024-11-05"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Snapshot Studio",
+      "location": "Hyderabad",
+      "price": 7000,
+      "rating": 3.9,
+      "styles": ["Studio"],
+      "tags": ["Birthday", "Family"],
+      "bio": "Affordable indoor shoots with creative themes.",
+      "profilePic": "https://content.jdmagicbox.com/v2/comp/navi_mumbai/j6/022pxx22.xx22.170901161308.c7j6/catalogue/snapshot-studio-navi-mumbai-ackuonkqi3.jpg",
+      "portfolio": ["https://i.pinimg.com/736x/ab/2d/8c/ab2d8cc31a929c625f52d18ea3dac73d.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPhnbe8tjc83jI5sKeyYL6KUkxTK-8Zc0TQQ&s",
+        "https://cdn.pixabay.com/photo/2019/05/24/18/41/marriage-4226896_640.jpg",
+        "https://cdn.pixabay.com/photo/2024/03/03/10/43/wedding-8610170_1280.jpg",
+        "https://vivekkrishnan.com/wp-content/uploads/2016/05/Preweddingshoot-23.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjN6PdbzhSRBSSOzhHTqyue-ESr45pJj3NCQ&s",
+        "https://www.focusonthefamily.com/wp-content/uploads/2024/01/get-married-shutterstock-589431530-65b82ea6e69f6.webp",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiEFyzQmdz4t8d2gwtXWHtc2b61vm9imG6Vw&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_LAzRRaXi_whaym3P0ZH1MS5Y-BQmWpdBMQ&s"],
+      "reviews": [
+        {
+          "name": "Vikram",
+          "rating": 3.5,
+          "comment": "Decent service, could improve on punctuality.",
+          "date": "2024-09-10"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Lens Craft",
+      "location": "Mumbai",
+      "price": 15000,
+      "rating": 4.8,
+      "styles": ["Wedding", "Outdoor"],
+      "tags": ["Candid", "Traditional"],
+      "bio": "Premium wedding photography with cinematic storytelling.",
+      "profilePic": "https://imgs.search.brave.com/2hDryM7qGADIthcdBJDOlzpniNJfe23WAktoi41Fd2g/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9t/YW4taGlzLXByb2Zl/c3Npb25hbC1waG90/b2dyYXBoeS1zdHVk/aW9fMjMtMjE0OTAz/MzM4Ni5qcGc_c2Vt/dD1haXNfaXRlbXNf/Ym9vc3RlZCZ3PTc0/MA",
+      "portfolio": ["https://i.pinimg.com/736x/ab/2d/8c/ab2d8cc31a929c625f52d18ea3dac73d.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPhnbe8tjc83jI5sKeyYL6KUkxTK-8Zc0TQQ&s",
+        "https://cdn.pixabay.com/photo/2019/05/24/18/41/marriage-4226896_640.jpg",
+        "https://cdn.pixabay.com/photo/2024/03/03/10/43/wedding-8610170_1280.jpg",
+        "https://vivekkrishnan.com/wp-content/uploads/2016/05/Preweddingshoot-23.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjN6PdbzhSRBSSOzhHTqyue-ESr45pJj3NCQ&s",
+        "https://www.focusonthefamily.com/wp-content/uploads/2024/01/get-married-shutterstock-589431530-65b82ea6e69f6.webp",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiEFyzQmdz4t8d2gwtXWHtc2b61vm9imG6Vw&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_LAzRRaXi_whaym3P0ZH1MS5Y-BQmWpdBMQ&s"],
+      "reviews": [
+        {
+          "name": "Rohit",
+          "rating": 5,
+          "comment": "Incredible attention to detail!",
+          "date": "2025-01-10"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "PixelFrame",
+      "location": "Delhi",
+      "price": 8000,
+      "rating": 4.4,
+      "styles": ["Studio", "Fashion"],
+      "tags": ["Portrait", "Editorial"],
+      "bio": "Specialists in fashion portfolios and editorial shoots.",
+      "profilePic": "https://media.istockphoto.com/id/1470247368/photo/photo-studio-room-with-white-backdrop-and-lighting.jpg?s=612x612&w=0&k=20&c=Sd26bTXS6iSaf9WRNmjuciHZcuthv47xBHiaOkGFCbE=",
+      "portfolio": ["https://i.pinimg.com/736x/ab/2d/8c/ab2d8cc31a929c625f52d18ea3dac73d.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPhnbe8tjc83jI5sKeyYL6KUkxTK-8Zc0TQQ&s",
+        "https://cdn.pixabay.com/photo/2019/05/24/18/41/marriage-4226896_640.jpg",
+        "https://cdn.pixabay.com/photo/2024/03/03/10/43/wedding-8610170_1280.jpg",
+        "https://vivekkrishnan.com/wp-content/uploads/2016/05/Preweddingshoot-23.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjN6PdbzhSRBSSOzhHTqyue-ESr45pJj3NCQ&s",
+        "https://www.focusonthefamily.com/wp-content/uploads/2024/01/get-married-shutterstock-589431530-65b82ea6e69f6.webp",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiEFyzQmdz4t8d2gwtXWHtc2b61vm9imG6Vw&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_LAzRRaXi_whaym3P0ZH1MS5Y-BQmWpdBMQ&s"],
+      "reviews": [
+        {
+          "name": "Sana",
+          "rating": 4,
+          "comment": "Loved the final edits!",
+          "date": "2025-02-22"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Clickscape",
+      "location": "Hyderabad",
+      "price": 12000,
+      "rating": 4.7,
+      "styles": ["Outdoor", "Event"],
+      "tags": ["Birthday", "Engagement"],
+      "bio": "Vibrant event coverage with a personal touch.",
+      "profilePic": "https://media.istockphoto.com/id/918337964/photo/large-photo-studio-with-professional-lighting.jpg?s=612x612&w=0&k=20&c=AW609e7WoQplO6P64CIa-o_TlHO8G8TGcPn_XU4vmY0=",
+      "portfolio": ["https://i.pinimg.com/736x/ab/2d/8c/ab2d8cc31a929c625f52d18ea3dac73d.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPhnbe8tjc83jI5sKeyYL6KUkxTK-8Zc0TQQ&s",
+        "https://cdn.pixabay.com/photo/2019/05/24/18/41/marriage-4226896_640.jpg",
+        "https://cdn.pixabay.com/photo/2024/03/03/10/43/wedding-8610170_1280.jpg",
+        "https://vivekkrishnan.com/wp-content/uploads/2016/05/Preweddingshoot-23.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjN6PdbzhSRBSSOzhHTqyue-ESr45pJj3NCQ&s",
+        "https://www.focusonthefamily.com/wp-content/uploads/2024/01/get-married-shutterstock-589431530-65b82ea6e69f6.webp",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiEFyzQmdz4t8d2gwtXWHtc2b61vm9imG6Vw&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_LAzRRaXi_whaym3P0ZH1MS5Y-BQmWpdBMQ&s"],
+      "reviews": [
+        {
+          "name": "Divya",
+          "rating": 5,
+          "comment": "Captured the essence of the event perfectly.",
+          "date": "2025-03-05"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "ShutterSoul",
+      "location": "Chennai",
+      "price": 9000,
+      "rating": 4.5,
+      "styles": ["Wedding", "Studio"],
+      "tags": ["Traditional", "Couple"],
+      "bio": "Crafting timeless wedding memories with finesse.",
+      "profilePic": "https://media.istockphoto.com/id/1200700846/photo/selective-focus-of-photographer-taking-photo-of-model-and-hairstylist.jpg?s=612x612&w=0&k=20&c=Cu3l8MyLL_YnIJcRQjH8uocEfJJLCqh2WQ4UncTb3fs=",
+      "portfolio": ["https://i.pinimg.com/736x/ab/2d/8c/ab2d8cc31a929c625f52d18ea3dac73d.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPhnbe8tjc83jI5sKeyYL6KUkxTK-8Zc0TQQ&s",
+        "https://cdn.pixabay.com/photo/2019/05/24/18/41/marriage-4226896_640.jpg",
+        "https://cdn.pixabay.com/photo/2024/03/03/10/43/wedding-8610170_1280.jpg",
+        "https://vivekkrishnan.com/wp-content/uploads/2016/05/Preweddingshoot-23.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjN6PdbzhSRBSSOzhHTqyue-ESr45pJj3NCQ&s",
+        "https://www.focusonthefamily.com/wp-content/uploads/2024/01/get-married-shutterstock-589431530-65b82ea6e69f6.webp",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiEFyzQmdz4t8d2gwtXWHtc2b61vm9imG6Vw&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_LAzRRaXi_whaym3P0ZH1MS5Y-BQmWpdBMQ&s"],
+      "reviews": [
+        {
+          "name": "Arjun",
+          "rating": 4.5,
+          "comment": "Professional and punctual!",
+          "date": "2025-04-18"
+        }
+      ]
+    },
+
+    {
+      "id": 10,
+      "name": "Focus Tales",
+      "location": "Chennai",
+      "price": 11000,
+      "rating": 4.3,
+      "styles": ["Event", "Outdoor"],
+      "tags": ["Corporate", "Candid"],
+      "bio": "Capturing authentic moments at corporate and personal events.",
+      "profilePic": "https://media.istockphoto.com/id/1196171879/photo/cameraman-filming-make-up-artist-applies-makeup-to-a-beautiful-black-model-they-pose-for-a.jpg?s=612x612&w=0&k=20&c=fQiNDS0Azu9iH3UjTUnVf2RXLVvFnpa3VbH_DVKBenM=",
+      "portfolio": ["https://i.pinimg.com/736x/ab/2d/8c/ab2d8cc31a929c625f52d18ea3dac73d.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPhnbe8tjc83jI5sKeyYL6KUkxTK-8Zc0TQQ&s",
+        "https://cdn.pixabay.com/photo/2019/05/24/18/41/marriage-4226896_640.jpg",
+        "https://cdn.pixabay.com/photo/2024/03/03/10/43/wedding-8610170_1280.jpg",
+        "https://vivekkrishnan.com/wp-content/uploads/2016/05/Preweddingshoot-23.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjN6PdbzhSRBSSOzhHTqyue-ESr45pJj3NCQ&s",
+        "https://www.focusonthefamily.com/wp-content/uploads/2024/01/get-married-shutterstock-589431530-65b82ea6e69f6.webp",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiEFyzQmdz4t8d2gwtXWHtc2b61vm9imG6Vw&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_LAzRRaXi_whaym3P0ZH1MS5Y-BQmWpdBMQ&s"],
+      "reviews": [
+        {
+          "name": "Nikhil",
+          "rating": 4,
+          "comment": "Great composition and punctual service.",
+          "date": "2025-01-12"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Frame Factory",
+      "location": "Delhi",
+      "price": 9500,
+      "rating": 4.6,
+      "styles": ["Wedding", "Traditional"],
+      "tags": ["Haldi", "Sangeet"],
+      "bio": "Specializing in traditional wedding rituals with cultural richness.",
+      "profilePic": "https://media.istockphoto.com/id/161936219/photo/photo-studio.jpg?s=612x612&w=0&k=20&c=USWPhoQhxYULU4XA5JDo75fwFGgJLt0DACHNCd-cBHA=",
+      "portfolio": ["https://i.pinimg.com/736x/ab/2d/8c/ab2d8cc31a929c625f52d18ea3dac73d.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPhnbe8tjc83jI5sKeyYL6KUkxTK-8Zc0TQQ&s",
+        "https://cdn.pixabay.com/photo/2019/05/24/18/41/marriage-4226896_640.jpg",
+        "https://cdn.pixabay.com/photo/2024/03/03/10/43/wedding-8610170_1280.jpg",
+        "https://vivekkrishnan.com/wp-content/uploads/2016/05/Preweddingshoot-23.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjN6PdbzhSRBSSOzhHTqyue-ESr45pJj3NCQ&s",
+        "https://www.focusonthefamily.com/wp-content/uploads/2024/01/get-married-shutterstock-589431530-65b82ea6e69f6.webp",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiEFyzQmdz4t8d2gwtXWHtc2b61vm9imG6Vw&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_LAzRRaXi_whaym3P0ZH1MS5Y-BQmWpdBMQ&s"],
+      "reviews": [
+        {
+          "name": "Megha",
+          "rating": 5,
+          "comment": "They covered our entire wedding beautifully.",
+          "date": "2025-03-22"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Lightroom Studios",
+      "location": "Bengaluru",
+      "price": 7000,
+      "rating": 4.2,
+      "styles": ["Studio", "Portrait"],
+      "tags": ["Product", "LinkedIn"],
+      "bio": "Sharp and professional studio portraits for personal and commercial use.",
+      "profilePic": "https://media.istockphoto.com/id/1196171790/photo/backstage-of-the-photo-shoot-photographer-taking-photos-of-beautiful-black-model-with.jpg?s=612x612&w=0&k=20&c=HOGiwyLh05h962k1z-p2n1rvizBVPqIp8pzedkZIna8=",
+      "portfolio": ["https://i.pinimg.com/736x/ab/2d/8c/ab2d8cc31a929c625f52d18ea3dac73d.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPhnbe8tjc83jI5sKeyYL6KUkxTK-8Zc0TQQ&s",
+        "https://cdn.pixabay.com/photo/2019/05/24/18/41/marriage-4226896_640.jpg",
+        "https://cdn.pixabay.com/photo/2024/03/03/10/43/wedding-8610170_1280.jpg",
+        "https://vivekkrishnan.com/wp-content/uploads/2016/05/Preweddingshoot-23.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjN6PdbzhSRBSSOzhHTqyue-ESr45pJj3NCQ&s",
+        "https://www.focusonthefamily.com/wp-content/uploads/2024/01/get-married-shutterstock-589431530-65b82ea6e69f6.webp",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiEFyzQmdz4t8d2gwtXWHtc2b61vm9imG6Vw&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_LAzRRaXi_whaym3P0ZH1MS5Y-BQmWpdBMQ&s"],
+      "reviews": [
+        {
+          "name": "Arpita",
+          "rating": 4.2,
+          "comment": "Perfect for my online store photos.",
+          "date": "2025-02-08"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Golden Hour Clicks",
+      "location": "Mumbai",
+      "price": 13000,
+      "rating": 4.9,
+      "styles": ["Outdoor", "Wedding"],
+      "tags": ["Pre-wedding", "Candid"],
+      "bio": "Romantic pre-wedding shoots during the perfect golden hour.",
+      "profilePic": "https://media.gettyimages.com/id/200381846-003/photo/woman-photographing-young-female-model-in-photo-studio-dusk.jpg?s=612x612&w=0&k=20&c=auqHj4RUpOLdAJp75qWetzswIxbhuIehzW8um03x2Mo=",
+      "portfolio": ["https://i.pinimg.com/736x/ab/2d/8c/ab2d8cc31a929c625f52d18ea3dac73d.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPhnbe8tjc83jI5sKeyYL6KUkxTK-8Zc0TQQ&s",
+        "https://cdn.pixabay.com/photo/2019/05/24/18/41/marriage-4226896_640.jpg",
+        "https://cdn.pixabay.com/photo/2024/03/03/10/43/wedding-8610170_1280.jpg",
+        "https://vivekkrishnan.com/wp-content/uploads/2016/05/Preweddingshoot-23.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjN6PdbzhSRBSSOzhHTqyue-ESr45pJj3NCQ&s",
+        "https://www.focusonthefamily.com/wp-content/uploads/2024/01/get-married-shutterstock-589431530-65b82ea6e69f6.webp",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiEFyzQmdz4t8d2gwtXWHtc2b61vm9imG6Vw&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_LAzRRaXi_whaym3P0ZH1MS5Y-BQmWpdBMQ&s"],
+      "reviews": [
+        {
+          "name": "Riya",
+          "rating": 5,
+          "comment": "Stunning use of natural light!",
+          "date": "2025-04-15"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Urban Lens",
+      "location": "Delhi",
+      "price": 8500,
+      "rating": 4.4,
+      "styles": ["Street", "Fashion"],
+      "tags": ["Street", "Model"],
+      "bio": "Edgy fashion and street-style photography with a creative edge.",
+      "profilePic": "https://media.gettyimages.com/id/483621103/photo/film-crew-working-on-set.jpg?s=612x612&w=0&k=20&c=5QPkPDL3Ewi4uMaHdXxN1rpHe6RT8O9QJxs1qaBtFtg=",
+      "portfolio": ["https://i.pinimg.com/736x/ab/2d/8c/ab2d8cc31a929c625f52d18ea3dac73d.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPhnbe8tjc83jI5sKeyYL6KUkxTK-8Zc0TQQ&s",
+        "https://cdn.pixabay.com/photo/2019/05/24/18/41/marriage-4226896_640.jpg",
+        "https://cdn.pixabay.com/photo/2024/03/03/10/43/wedding-8610170_1280.jpg",
+        "https://vivekkrishnan.com/wp-content/uploads/2016/05/Preweddingshoot-23.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjN6PdbzhSRBSSOzhHTqyue-ESr45pJj3NCQ&s",
+        "https://www.focusonthefamily.com/wp-content/uploads/2024/01/get-married-shutterstock-589431530-65b82ea6e69f6.webp",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiEFyzQmdz4t8d2gwtXWHtc2b61vm9imG6Vw&s",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_LAzRRaXi_whaym3P0ZH1MS5Y-BQmWpdBMQ&s"],
+      "reviews": [
+        {
+          "name": "Jay",
+          "rating": 4.3,
+          "comment": "Loved the urban vibe in every frame!",
+          "date": "2025-05-01"
+        }
+      ]
+    }
+  ]
+}

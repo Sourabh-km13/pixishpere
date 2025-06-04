@@ -3,20 +3,21 @@
 import React, { useEffect, useState } from "react";
 import SelectLocation from "../SelectLocation/SelectLocation";
 import Navbar from '../navbar/Navbarl'
+import useDataStore from "../../store/useDataStore";
 
 const Pixisphere = () => {
-  const [photographers, setPhotographers] = useState([]);
-  const [avalibleLocation, setAvalibleLocation] = useState([]);
 
+  const [avalibleLocation, setAvalibleLocation] = useState([]);
+  const{storeData,setData} = useDataStore();
   useEffect(() => {
     fetch("/api/photographers")
       .then((res) => res.json())
       .then((data) => {
-        const allLocation = [...new Set(data?.map((d) => d.location))];
+       const allLocation = [...new Set(data?.map((d) => d.location))];
         setAvalibleLocation(allLocation);
-        setPhotographers(data);
       });
   }, []);
+  
 
   return (
     <div className="min-h-screen p-6 w-[80%] flex flex-col mx-auto ">

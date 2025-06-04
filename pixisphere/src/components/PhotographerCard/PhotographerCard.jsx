@@ -4,6 +4,7 @@ const PhotographerCard = ({ photographer, handleViewProfile }) => {
   return (
     <div className="bg-white border rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
       <img
+        loading="lazy"
         src={photographer.profilePic}
         alt={photographer.name}
         className="w-full h-48 object-cover"
