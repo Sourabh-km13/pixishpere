@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🖼️ Pixisphere
 
-## Getting Started
+Pixisphere is a high-performance image gallery and search experience built using **Next.js**, **React**, and **Tailwind CSS**. Designed with best practices in modern frontend architecture, it demonstrates optimized state management, efficient API consumption, lazy loading, and user-friendly UX patterns like debounced search and various filter search .
+## 🛠️ Installation & Setup
 
-First, run the development server:
+Follow these steps to install and run **Pixisphere** locally:
+
+### 1. Clone the Repository
 
 ```bash
+git clone https://github.com/yourusername/pixisphere.git
+cd pixishpere/pixisphere
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
 ```
+## 🚀 Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Framework**: [Next.js](https://nextjs.org/
+- **Styling**: [Tailwind CSS]
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✨ Features
 
-## Learn More
+- 🔍 **Debounced Search** — Prevents unnecessary API calls and improves performance during input.
+- ⚡ **Smooth API Integration** — Optimized and conditional fetch operations using `useMemo` to reduce re-renders.
+- 🌀 **Lazy Loading Images** — Images are loaded only when needed, reducing initial load time.
+- 📂 **Filtered Gallery View** — Search and filter photo studios by name , location , price ,ratings or tag in real-time.
+-   **Sorting Methods - high to low , low to high.
+-   **view profile rating and reviews of a photographer.
+- 🎨 **Tailwind-Powered UI** — Clean, consistent, and mobile-responsive interface.
+- 🧠 **React Best Practices** — Controlled components, key usage of `useRef`, `useMemo`, and `useState`.
 
-To learn more about Next.js, take a look at the following resources:
+---
+![image](https://github.com/user-attachments/assets/2600de9b-f218-4d93-b99e-f37d2791571c)
+![image](https://github.com/user-attachments/assets/8e94ca74-bd4d-4736-a41e-467a693d6d64)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
