@@ -1,0 +1,184 @@
+{
+    "photographers": [
+      {
+        "id": 1,
+        "name": "Ravi Studio",
+        "location": "Bengaluru",
+        "price": 10000,
+        "rating": 4.6,
+        "styles": ["Outdoor", "Studio"],
+        "tags": ["Candid", "Maternity"],
+        "bio": "Award-winning studio specializing in maternity and newborn shoots.",
+        "profilePic": "https://content.jdmagicbox.com/comp/karwar/dc/9999p8382.8382.130924152852.d8p9dc/catalogue/ravi-studio-sirsi-karwar-sirsi-photographers-dvrpyrc7sr.jpg?w=1920&q=75",
+        "portfolio": ["/images/portfolio1.jpg", "/images/portfolio2.jpg"],
+        "reviews": [
+          {
+            "name": "Ananya",
+            "rating": 5,
+            "comment": "Truly amazing photos and experience!",
+            "date": "2024-12-15"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Lens Queen Photography",
+        "location": "Delhi",
+        "price": 15000,
+        "rating": 4.2,
+        "styles": ["Candid", "Indoor"],
+        "tags": ["Newborn", "Birthday"],
+        "bio": "Delhi-based candid specialist for kids and birthday parties.",
+        "profilePic": "https://content3.jdmagicbox.com/v2/comp/delhi/t3/011pxx11.xx11.170713193406.f8t3/catalogue/lens-queen-photography-sangam-vihar-delhi-photographers-1901p0t.jpg",
+        "portfolio": ["/images/lens1.jpg", "/images/lens2.jpg"],
+        "reviews": [
+          {
+            "name": "Priya",
+            "rating": 4,
+            "comment": "Very professional and punctual!",
+            "date": "2024-10-01"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Click Factory",
+        "location": "Mumbai",
+        "price": 8000,
+        "rating": 4.8,
+        "styles": ["Studio", "Outdoor", "Traditional"],
+        "tags": ["Wedding", "Pre-wedding"],
+        "bio": "Capturing timeless wedding stories across India.",
+        "profilePic": "https://content.jdmagicbox.com/comp/vidisha/f9/9999p7592.7592.220621122739.h1f9/catalogue/kapoor-click-s-photography-vidisha-bus-stand-vidisha-photo-studios-0dwhlcmurs.jpg?w=3840&q=75",
+        "portfolio": ["/images/wed1.jpg", "/images/wed2.jpg"],
+        "reviews": [
+          {
+            "name": "Rahul",
+            "rating": 5,
+            "comment": "We loved every single moment they captured.",
+            "date": "2025-01-22"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Moments by Neha",
+        "location": "Bengaluru",
+        "price": 12000,
+        "rating": 3.3,
+        "styles": ["Outdoor", "Candid"],
+        "tags": ["Maternity", "Couple"],
+        "bio": "Natural light specialist focusing on emotional storytelling.",
+        "profilePic": "https://images.pexels.com/photos/4123588/pexels-photo-4123588.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "portfolio": ["/images/neha1.jpg", "/images/neha2.jpg"],
+        "reviews": [
+          {
+            "name": "Sneha",
+            "rating": 4.5,
+            "comment": "Captured our maternity journey so beautifully.",
+            "date": "2024-11-05"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Snapshot Studio",
+        "location": "Hyderabad",
+        "price": 7000,
+        "rating": 3.9,
+        "styles": ["Studio"],
+        "tags": ["Birthday", "Family"],
+        "bio": "Affordable indoor shoots with creative themes.",
+        "profilePic": "https://content.jdmagicbox.com/v2/comp/navi_mumbai/j6/022pxx22.xx22.170901161308.c7j6/catalogue/snapshot-studio-navi-mumbai-ackuonkqi3.jpg",
+        "portfolio": ["/images/snapshot1.jpg", "/images/snapshot2.jpg"],
+        "reviews": [
+          {
+            "name": "Vikram",
+            "rating": 3.5,
+            "comment": "Decent service, could improve on punctuality.",
+            "date": "2024-09-10"
+          }
+        ]
+      },
+      {
+    "id": 6,
+    "name": "Lens Craft",
+    "location": "Mumbai",
+    "price": 15000,
+    "rating": 4.8,
+    "styles": ["Wedding", "Outdoor"],
+    "tags": ["Candid", "Traditional"],
+    "bio": "Premium wedding photography with cinematic storytelling.",
+    "profilePic": "https://example.com/lenscraft.jpg",
+    "portfolio": ["/images/portfolio3.jpg", "/images/portfolio4.jpg"],
+    "reviews": [
+      {
+        "name": "Rohit",
+        "rating": 5,
+        "comment": "Incredible attention to detail!",
+        "date": "2025-01-10"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "PixelFrame",
+    "location": "Delhi",
+    "price": 8000,
+    "rating": 4.4,
+    "styles": ["Studio", "Fashion"],
+    "tags": ["Portrait", "Editorial"],
+    "bio": "Specialists in fashion portfolios and editorial shoots.",
+    "profilePic": "https://example.com/pixelframe.jpg",
+    "portfolio": ["/images/portfolio5.jpg", "/images/portfolio6.jpg"],
+    "reviews": [
+      {
+        "name": "Sana",
+        "rating": 4,
+        "comment": "Loved the final edits!",
+        "date": "2025-02-22"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Clickscape",
+    "location": "Hyderabad",
+    "price": 12000,
+    "rating": 4.7,
+    "styles": ["Outdoor", "Event"],
+    "tags": ["Birthday", "Engagement"],
+    "bio": "Vibrant event coverage with a personal touch.",
+    "profilePic": "https://example.com/clickscape.jpg",
+    "portfolio": ["/images/portfolio7.jpg", "/images/portfolio8.jpg"],
+    "reviews": [
+      {
+        "name": "Divya",
+        "rating": 5,
+        "comment": "Captured the essence of the event perfectly.",
+        "date": "2025-03-05"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "ShutterSoul",
+    "location": "Chennai",
+    "price": 9000,
+    "rating": 4.5,
+    "styles": ["Wedding", "Studio"],
+    "tags": ["Traditional", "Couple"],
+    "bio": "Crafting timeless wedding memories with finesse.",
+    "profilePic": "https://example.com/shuttersoul.jpg",
+    "portfolio": ["/images/portfolio9.jpg", "/images/portfolio10.jpg"],
+    "reviews": [
+      {
+        "name": "Arjun",
+        "rating": 4.5,
+        "comment": "Professional and punctual!",
+        "date": "2025-04-18"
+      }
+    ]
+  }
+    ]
+  }
