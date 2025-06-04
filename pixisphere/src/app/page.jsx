@@ -1,11 +1,11 @@
 import React from "react";
-import Pixisphere from "../components/pixisphere/Pixisphere";
-const PixispherePage = () => {
+
+const Home = () => {
   return (
     <div>
-      <Pixisphere />
+      Home
     </div>
   );
 };
 
-export default PixispherePage;
+export default Home;
