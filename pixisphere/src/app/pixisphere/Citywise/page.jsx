@@ -1,12 +1,16 @@
 
-import React from "react";
+import React, { Suspense } from "react";
 import Citywise from "../../../components/Citywise/Citywise";
+
+
 
 const CitywisePage = () => {
   return (
-    <div>
+    <Suspense fallback={<div>loading...</div>}>
+      <div>
       <Citywise />
     </div>
+    </Suspense>
   );
 };
 
