@@ -8,7 +8,8 @@ const Navbar = () => {
   const router = useRouter();
 
   const segments = pathname.split("/").filter(Boolean);
-
+  console.log(segments);
+  
   const links = [
     {
       name: "Home",
@@ -17,11 +18,11 @@ const Navbar = () => {
     },
   ];
 
-  if (segments.includes("citywise")) {
+  if (segments.includes("Citywise")) {
     links.push({
       name: "Citywise",
-      href: "/pixisphere/citywise",
-      isActive: segments.includes("citywise") && segments.length === 2,
+      href: "/pixisphere/Citywise",
+      isActive: segments.includes("Citywise") && segments.length === 2,
     });
   }
 

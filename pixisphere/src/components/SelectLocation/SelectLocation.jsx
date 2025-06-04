@@ -26,8 +26,10 @@ const SelectLocation = ({ avalibleLocation }) => {
 
   const handleClick = (location) => {
     const params = new URLSearchParams(searchParams.toString());
+    console.log("location:" ,location);
+    
     params.set("location", location);
-    router.push(`${pathname}/citywise?${params.toString()}`);
+    router.push(`${pathname}/Citywise?${params.toString()}`);
   };
 
   return (

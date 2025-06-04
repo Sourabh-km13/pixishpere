@@ -13,14 +13,15 @@ const Pixisphere = () => {
   const [photographers, setPhotographers] = useState([]);
   const [filtered, setFiltered] = useState([]);
   const [loading, setLoading] = useState(true);
-
+    
   useEffect(() => {
     const fetchPhotographers = async () => {
       try {
         const res = await fetch("/api/photographers");
         const data = await res.json();
         setPhotographers(data);
-
+        console.log("location:",queryLocation);
+        
         const filtered = queryLocation
           ? data.filter((p) => p.location === queryLocation)
           : data;
