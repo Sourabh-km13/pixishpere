@@ -1,5 +1,5 @@
 "use client"
-import React, { useEffect, useState, useMemo } from "react"
+import React, { useEffect, useState, useRef } from "react"
 import PhotographerFilter from "../PhotographerFilter/PhotographerFilter"
 import PhotographerCard from "../PhotographerCard/PhotographerCard"
 import { useRouter, useSearchParams } from "next/navigation"
@@ -14,9 +14,10 @@ const Pixisphere = () => {
     const [photographers, setPhotographers] = useState([])
     const [filtered, setFiltered] = useState([])
     const [loading, setLoading] = useState(true)
-   
+    const debounceTimer = useRef(null);
+
     useEffect(() => {
-        
+
 
         const fetchPhotographers = async () => {
             try {
@@ -67,11 +68,21 @@ const Pixisphere = () => {
                 selectedStyle.some((style) => p.styles.includes(style))
             )
         }
-        if (searchKeyword) {
-            updated = updated.filter((p) =>
-                p.name.toLowerCase().includes(searchKeyword.toLowerCase())
-            )
+  
+        if (debounceTimer.current) {
+            clearTimeout(debounceTimer.current);
         }
+
+     
+        debounceTimer.current = setTimeout(() => {
+            if (searchKeyword) {
+                updated = updated.filter((p) =>
+                    p.name.toLowerCase().includes(searchKeyword.toLowerCase())
+                );
+                setFiltered(updated);
+            } 
+        }, 800); 
+
 
         updated = updated.filter(
             (p) => p.price >= priceRange[0] && p.price <= priceRange[1]
