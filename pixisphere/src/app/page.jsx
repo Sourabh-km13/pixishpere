@@ -1,5 +1,5 @@
 import React from "react";
-import Pixisphere from "../../components/pixisphere/Pixisphere";
+import Pixisphere from "../components/pixisphere/Pixisphere";
 const PixispherePage = () => {
   return (
     <div>
